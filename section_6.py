@@ -12,16 +12,25 @@
 
 # print(type(obj1))
 
+
 class PlayerCharacter:
+    # class object attribute--NOT dynamic
+    membership = True
+
     # __init__ method: automatically called when object is instanciated
     def __init__(self, name, age):
         # self refers to PlayerCharacter
-        self.name = name  # attributes
-        self.age = age
+        # checks to see if membership = True before instanciating
+        if self.membership:
+            self.name = name  # attributes
+            self.age = age
 
     def run(self):
         print('run')
         return 'done'
+
+    def shout(self):
+        print(f'My name is {self.name}')
 
 
 player1 = PlayerCharacter('Jeeglobs', 35)
@@ -34,3 +43,9 @@ print(player1.name, player1.age)
 print(player2.name, player2.age)
 
 print(player1.run())
+
+# help(player1)
+
+print(player1.membership)
+
+print(player1.shout())
