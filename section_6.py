@@ -18,10 +18,10 @@ class PlayerCharacter:
     membership = True
 
     # __init__ method: automatically called when object is instanciated
-    def __init__(self, name, age):
+    def __init__(self, name='anonymous', age=0):
         # self refers to PlayerCharacter
         # checks to see if membership = True before instanciating
-        if self.membership:
+        if self.membership and age > 18:
             self.name = name  # attributes
             self.age = age
 
@@ -34,7 +34,7 @@ class PlayerCharacter:
 
 
 player1 = PlayerCharacter('Jeeglobs', 35)
-player2 = PlayerCharacter('jangleJANGLE', 34)
+player2 = PlayerCharacter('jangleJANGLE', 15)
 
 print(player1)
 print(player2)
