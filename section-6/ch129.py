@@ -1,0 +1,1 @@
+# INHERITANCE 2
