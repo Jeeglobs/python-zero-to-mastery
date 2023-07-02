@@ -2,5 +2,6 @@
     * encapsulation
     * abstraction
     * inheritance
+    * polymorphism
 
 everything in python inherits from the base object class
