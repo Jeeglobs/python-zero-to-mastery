@@ -1,0 +1,4 @@
+4 PILLARS OF OOP:
+    * encapsulation
+    * abstraction
+    
