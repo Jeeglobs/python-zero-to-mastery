@@ -1,0 +1,16 @@
+4 PILLARS OF OOP:
+    * encapsulation
+    * abstraction
+    * inheritance
+    * polymorphism
+
+
+everything in python inherits from the base object class
+
+
+OBJECT INSTROPECTION:
+    * the ability to determine the type of an object at runtime (when the code is running)
+
+
+DUNDER METHODS:
+    * usually do not want to change them, but you can
