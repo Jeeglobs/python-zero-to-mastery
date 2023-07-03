@@ -14,3 +14,8 @@ OBJECT INSTROPECTION:
 
 DUNDER METHODS:
     * usually do not want to change them, but you can
+
+
+In Pure Functions:
+    * should not produce any side affects
+    * an imput should always return the same output
