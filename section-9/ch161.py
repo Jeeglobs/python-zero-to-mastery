@@ -1,4 +1,4 @@
-# ERROR HANDLING 3
+# EXERCISES: ERROR HANDLING
 
 while True:
     try:
