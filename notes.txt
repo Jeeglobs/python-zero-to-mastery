@@ -19,3 +19,5 @@ DUNDER METHODS:
 In Pure Functions:
     * should not produce any side affects
     * an imput should always return the same output
+
+
