@@ -39,3 +39,11 @@ d2['b'] = 2
 d2['a'] = 1
 
 print(d2 == d1)
+
+
+'''
+In the current version of Python,
+dictionaries ARE ordered by default
+you only need to use OrderedDict
+if you are using older versions of Python
+'''
