@@ -9,3 +9,14 @@
 # .. means back a folder
 
 # pathlib is useful when using machines with different path systems. like windows and mac
+
+
+'''
+can use try/except blocks to catch errors when finding files
+
+except FileNotFoundError as err:
+    raise err
+
+except IOError as err:
+    raise err
+'''
