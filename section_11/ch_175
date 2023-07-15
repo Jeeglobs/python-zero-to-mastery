@@ -1,0 +1,21 @@
+# EXERCISE: GUESSING GAME
+
+import sys
+from random import randint
+
+# answer = randint(1, 10)
+answer = randint(int(sys.argv[1], sys.argv[2]))
+
+while True:
+    try:
+        print(answer)
+        guess = int(input('Guess a number 1~10\n'))
+        if 0 < guess < 11:
+            if guess == answer:
+                print('You got it')
+                break
+        else:
+            print('I said 1~10')
+    except ValueError:
+        print('please enter a number')
+        continue
